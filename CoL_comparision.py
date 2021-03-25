@@ -17,9 +17,4 @@ for item in difference:
 diff_list = [i.replace(",", "") for i in difference_list]
 d_list = [float(x) for x in diff_list if x]
 
-# Taking the sum of the differences ranging from meal prices to rent and entertainment to get a general idea 
-sum = 0
-for item in range(len(d_list)):
-    sum += item
-
-print(sum)
+# Work in progress
